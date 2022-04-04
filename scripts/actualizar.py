@@ -13,7 +13,7 @@ def actualizar_archivo():
     if desicion == "si":
             File.visible = 1
             print("Abriendo Archivo.....")
-            Workbook = File.Workbooks.open(f)
+            Workbook = File.Workbooks.open(archivo)
             print("Actualizando Archivo.....")
             Workbook.RefreshAll()
             time.sleep(8)
